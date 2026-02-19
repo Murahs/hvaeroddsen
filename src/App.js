@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { getMoreLikelyEvents, formatProbability } from "./utils/oddsEngine";
-import logo from "./assets/images/logo.png";
+import logo from "./assets/images/ny_logo.png";
 
 
 function App() {
