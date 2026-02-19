@@ -5,7 +5,6 @@
   --muted: #6b7280;
   --border: #e5e7eb;
 
-  /* “Sporty accent” (ikke Norsk Tipping sin eksakte) */
   --accent: #0ea5e9;
   --accent-dark: #0284c7;
 
@@ -32,7 +31,6 @@ body {
   max-width: 760px;
 }
 
-/* Header */
 .headerRow {
   display: flex;
   align-items: center;
@@ -75,7 +73,6 @@ body {
   font-size: 12px;
 }
 
-/* Card */
 .hero {
   background: var(--card);
   border: 1px solid var(--border);
@@ -87,7 +84,6 @@ body {
   padding: 22px 18px;
 }
 
-/* Title */
 .title {
   margin: 0 0 8px 0;
   font-size: 28px;
@@ -101,7 +97,6 @@ body {
   line-height: 1.5;
 }
 
-/* Input row */
 .inputRow {
   display: flex;
   gap: 10px;
@@ -147,7 +142,16 @@ body {
   filter: brightness(0.95);
 }
 
-/* Results */
+.statusLine {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #f3f4f6;
+  border: 1px solid var(--border);
+  color: #111827;
+  font-weight: 700;
+}
+
 .results {
   margin-top: 16px;
   display: flex;
@@ -167,12 +171,13 @@ body {
   font-size: 12px;
   color: var(--muted);
 }
-.statusLine {
-  margin-top: 14px;
-  padding: 10px 12px;
-  border-radius: 12px;
-  background: #f3f4f6;
-  border: 1px solid #e5e7eb;
-  color: #111827;
-  font-weight: 700;
+.logoImage {
+  width: 44px;
+  height: 44px;
+  border-radius: 0;
+  object-fit: contain;
+  background: transparent;
+  box-shadow: none;
+  filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.18));
 }
+
